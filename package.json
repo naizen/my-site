@@ -1,0 +1,16 @@
+{
+  "name": "my-site",
+  "description": "Personal portfolio website",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass --watch assets/sass -o assets/css",
+    "build": "node-sass assets/sass -o assets/css"
+  },
+  "author": "",
+  "license": "ISC"
+}
