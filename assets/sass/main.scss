@@ -112,7 +112,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #555;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -222,7 +222,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -1172,6 +1172,13 @@ $avatarSize: 100px;
 		text-align: left;
 	}
 
+	.item-header {
+		height: 300px;
+		width: 100%;
+		background-size: cover;
+		background-position: center center;
+	}
+
 	.item-inner {
 		padding: 1em;
 		background-color: #fff;
@@ -1179,5 +1186,27 @@ $avatarSize: 100px;
 
 	h3 {
 		font-size: 22px;
+	}
+
+	p {
+		font-size: 18px;
+		margin-bottom: 10px;
+		line-height: 1.4;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.description {
+		margin: 10px 0 15px 0;
+	}
+
+	.external-link {
+		margin-right: 12px;
+
+		.icon {
+			margin-right: 6px;
+		}
 	}
 }
