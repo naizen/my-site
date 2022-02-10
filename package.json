@@ -3,7 +3,7 @@
   "description": "Personal portfolio website",
   "version": "1.0.0",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {},
   "scripts": {
